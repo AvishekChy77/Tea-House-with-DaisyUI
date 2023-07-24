@@ -33,6 +33,8 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              bg1: "rgba(87, 118, 57, 0.10)",
+              bg2: "rgba(230, 166, 35, 0.10)",
             },
           },
         },
@@ -71,5 +73,141 @@
         </div>
       </div>
     </header>
+    <main class="container mx-auto">
+      <section class="text-center my-24">
+        <h2 class="text-5xl mb-5 font-extrabold">Our Featured Products</h2>
+        <p class="lg:max-w-3xl mb-10 mx-auto">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+        <!-- card container -->
+        <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <!-- card-1 -->
+          <div
+            class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[rgba(244, 244, 244, 0.00)] shadow-xl"
+          >
+            <figure>
+              <img src="./images/tea-1.png" alt="Shoes" />
+            </figure>
+            <div class="card-body justify-center">
+              <h2 class="text-2xl font-bold">Milk Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div
+            class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[rgba(244, 244, 244, 0.00)] shadow-xl"
+          >
+            <figure>
+              <img src="./images/tea-2.png" alt="Shoes" />
+            </figure>
+            <div class="card-body justify-center">
+              <h2 class="text-2xl font-bold">Black Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div
+            class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[rgba(244, 244, 244, 0.00)] shadow-xl"
+          >
+            <figure>
+              <img src="./images/tea-3.png" alt="Shoes" />
+            </figure>
+            <div class="card-body justify-center">
+              <h2 class="text-2xl font-bold">Lemon Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- card-4 -->
+          <div
+            class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[rgba(244, 244, 244, 0.00)] shadow-xl"
+          >
+            <figure>
+              <img src="./images/tea-4.png" alt="Shoes" />
+            </figure>
+            <div class="card-body justify-center">
+              <h2 class="text-2xl font-bold">Green Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-24 flex flex-col gap-12 lg:flex-row">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 flex-1">
+          <div
+            class="rounded-xl opacity-10 h-36 bg-gradient-to-r from-[#F00] to-[#FF8938]"
+          ></div>
+          <div
+            class="row-span-2 py-7 flex justify-center items-center rounded-lg bg-bg2"
+          >
+            <img src="./images/fresh-1.png" alt="" srcset="" />
+          </div>
+          <div
+            class="rounded-lg py-7 flex justify-center items-center row-span-2 bg-bg1"
+          >
+            <img src="./images/fresh-2.png" alt="" srcset="" />
+          </div>
+          <div
+            class="rounded-xl h-36 bg-gradient-to-r from-[#D9D9D9] to-[rgba(255, 255, 255, 0.00)]"
+          ></div>
+        </div>
+        <div class="flex-1">
+          <h3 class="text-5xl font-extrabold mb-3">
+            Great Tea, Freshly <br />
+            Presented
+          </h3>
+          <p>
+            The meaning of gong cha is chanese is to provide the best tea to
+            emperor from all possessions . It represents the highest quality and
+            self expectation. Establishing in 2006, Gong cha had been deeply
+            appreciated by its custoers because of good words of mouth and
+            unique customized service orginated from Taiwan.
+          </p>
+          <h4 class="text-xl font-extrabold mt-8 mb-3">Unique Taste</h4>
+          <p>
+            A Unique and different style from other teapots gives a luxurious
+            and minimalist impression
+          </p>
+          <h4 class="text-xl font-extrabold mt-8 mb-3">Premium Quality</h4>
+          <p>
+            Premium Quality that makes tea more elegant and more durable when
+            you use it.
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="my-24 rounded-xl bg-gradient-to-r from-[#FF8938] to-[#F00] px-16 py-24 flex flex-col lg:flex-row gap-12"
+      >
+        <div class="space-y-5">
+          <h2 class="text-5xl font-extrabold text-white">
+            Meet Our Super <br />Clients
+          </h2>
+          <p class="text-white">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+          <button class="btn btn-primary">Show All</button>
+        </div>
+        <div class="relative p-10 rounded-lg bg-white">
+          <img
+            class="absolute -left-5 -top-5"
+            src="./images/client.png"
+            alt=""
+            srcset=""
+          />
+          <p>
+            We are providing the best and suitable home insurance services for
+            the people who are interested to treatment
+          </p>
+          <h4 class="font-bold mt-5">Ilham Yuda</h4>
+          <p class="font-medium">Businessman</p>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
