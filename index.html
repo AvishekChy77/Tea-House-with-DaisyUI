@@ -35,6 +35,8 @@
               clifford: "#da373d",
               bg1: "rgba(87, 118, 57, 0.10)",
               bg2: "rgba(230, 166, 35, 0.10)",
+              ft1: "rgba(255, 0, 0, 0.10)",
+              ft2: "rgba(255, 137, 56, 0.10)",
             },
           },
         },
@@ -217,7 +219,7 @@
           </div>
           <!-- current -->
           <div
-            class="absolute top-40 lg:-left-24 z-10 lg:w-[430px] p-10 rounded-lg bg-white"
+            class="absolute top-40 shadow-md lg:shadow-none -left-2 lg:-left-24 z-10 lg:w-[430px] p-10 rounded-lg bg-white"
           >
             <img
               class="absolute -left-5 -top-5 border-4 border-white rounded-full bg-white"
@@ -256,5 +258,61 @@
         </div>
       </section>
     </main>
+    <footer
+      class="lg:px-48 py-10 bg-gradient-to-r from-ft1 to-ft2 text-base-content"
+    >
+      <div class="flex justify-between my-24">
+        <img src="./images/cup.png" alt="" srcset="" />
+        <p>
+          <span>Ready to get strated?</span>
+          <button class="btn btn-primary">Get Started</button>
+        </p>
+      </div>
+      <div class="footer">
+        <div>
+          <span class="footer-title">Services</span>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </div>
+        <div>
+          <span class="footer-title">Company</span>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </div>
+        <div>
+          <span class="footer-title">Legal</span>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </div>
+        <div>
+          <span class="footer-title">Newsletter</span>
+          <div class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label>
+            <div class="relative">
+              <input
+                type="text"
+                placeholder="username@site.com"
+                class="py-4 bg-transparent border-b-2 border-black outline-none"
+              />
+              <button
+                class="btn btn-primary absolute top-0 right-0 rounded-l-none"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10 text-center">
+        <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+      </div>
+    </footer>
   </body>
 </html>
