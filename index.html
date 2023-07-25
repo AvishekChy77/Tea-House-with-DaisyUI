@@ -44,19 +44,21 @@
     </script>
     <title>Document</title>
   </head>
-  <body>
+  <body class="font-manrope">
     <header class="container mx-auto">
-      <div class="mb-32 mt-16">
-        <div class="flex justify-between items-center flex-col lg:flex-row">
+      <div class="px-7 xl:px-0 mb-32 mt-16">
+        <div
+          class="flex justify-between items-center lg:items-stretch flex-col lg:flex-row"
+        >
           <div>
-            <h1 class="text-7xl font-bold">
+            <h1 class="text-5xl lg:text-6xl xl:text-7xl font-extrabold">
               It's good <br />
               tea time at The <br />
               Tea House
             </h1>
             <p class="py-6">
-              Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
-              Your Taste Buds.
+              Tea and Botanical Solutions Supplier Give Optimum <br />
+              Satisfaction To Your Taste Buds.
             </p>
             <button
               class="btn text-white text-xs bg-gradient-to-r from-[#FF8938] to-[#F00]"
@@ -80,14 +82,16 @@
             </button>
           </div>
           <div>
-            <img src="./images/banner.png" class="" />
+            <img src="./images/banner.png" />
             <div
-              class="-mt-16 flex items-center rounded-lg gap-5 drop-shadow-lg bg-white p-5 w-60"
+              class="-mt-16 flex items-center rounded-lg gap-5 drop-shadow-lg bg-white p-4 lg:p-5 w-52 lg:w-60"
             >
-              <i class="fa-solid fa-star text-amber-400 text-3xl"></i>
+              <i
+                class="fa-solid fa-star text-amber-400 text-2xl lg:text-3xl"
+              ></i>
               <div>
-                <h3 class="text-3xl">5.00</h3>
-                <p>Trust Pilot Ratings</p>
+                <h3 class="text-2xl lg:text-3xl">5.00</h3>
+                <p class="text-sm lg:text-base">Trust Pilot Ratings</p>
               </div>
             </div>
           </div>
@@ -95,7 +99,7 @@
       </div>
     </header>
     <main class="container mx-auto">
-      <section class="text-center my-24">
+      <section class="px-7 xl:px-0 text-center my-24">
         <h2 class="text-5xl mb-5 font-extrabold">Our Featured Products</h2>
         <p class="lg:max-w-3xl mb-10 mx-auto">
           There are many variations of passages of Lorem Ipsum available, but
@@ -155,7 +159,7 @@
         </div>
       </section>
 
-      <section class="my-24 flex flex-col gap-12 lg:flex-row">
+      <section class="px-7 xl:px-0 my-24 flex flex-col gap-12 lg:flex-row">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 flex-1">
           <div
             class="rounded-xl opacity-10 h-36 bg-gradient-to-r from-[#F00] to-[#FF8938]"
@@ -200,7 +204,7 @@
       </section>
 
       <section
-        class="my-24 rounded-xl bg-gradient-to-r from-[#FF8938] to-[#F00] px-16 py-24 flex flex-col lg:flex-row gap-12"
+        class="mx-3 md:mx-7 xl:mx-0 my-24 rounded-xl bg-gradient-to-r from-[#FF8938] to-[#F00] px-16 py-24 flex items-center flex-col lg:flex-row gap-12"
       >
         <div class="flex items-center lg:pr-28">
           <div class="space-y-5">
@@ -225,7 +229,9 @@
         <!-- review container -->
         <div class="relative">
           <!-- next -->
-          <div class="relative opacity-40 mb-16 p-10 rounded-lg bg-white">
+          <div
+            class="relative opacity-40 mb-16 p-6 md:p-10 w-[295px] md:w-[360px] lg:w-[380px] rounded-lg bg-white"
+          >
             <img
               class="absolute -left-5 -top-5 border-4 border-white rounded-full bg-white"
               src="./images/client.png"
@@ -244,10 +250,10 @@
           </div>
           <!-- current -->
           <div
-            class="absolute top-40 shadow-md lg:shadow-none -left-2 lg:-left-24 z-10 lg:w-[430px] p-10 rounded-lg bg-white"
+            class="absolute top-40 shadow-md lg:shadow-none -left-7 md:-left-24 z-10 w-[320px] md:w-[400px] lg:w-[430px] p-6 md:p-10 rounded-lg bg-white"
           >
             <img
-              class="absolute -left-5 -top-5 border-4 border-white rounded-full bg-white"
+              class="absolute -left-4 -top-4 md:-left-5 md:-top-5 border-4 border-white rounded-full bg-white"
               src="./images/client.png"
               alt=""
               srcset=""
@@ -263,7 +269,9 @@
             </div>
           </div>
           <!-- previous -->
-          <div class="relative opacity-40 p-10 rounded-lg bg-white">
+          <div
+            class="relative opacity-40 p-6 md:p-10 w-[295px] md:w-[360px] lg:w-[380px] rounded-lg bg-white"
+          >
             <img
               class="absolute -left-5 -top-5 border-4 border-white rounded-full bg-white"
               src="./images/client.png"
